@@ -12,3 +12,11 @@ Trabalho desenvolvido para a disciplina de Computação em Nuvem. O projeto cons
 1. Construa e inicie os containers em background:
    ```bash
    docker compose up -d --build
+
+2. Executar o Teste Automatizado
+Para facilitar a validação, utilize o script de testes que faz o envio, a leitura no container vizinho e verifica a persistência automaticamente.
+Dê permissão de execução (caso necessário) e rode o script:
+
+```bash
+   chmod +x test.sh
+   ./test.sh
